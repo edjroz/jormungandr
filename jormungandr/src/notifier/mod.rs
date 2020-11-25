@@ -4,7 +4,6 @@ use crate::utils::task::TokioServiceInfo;
 use chain_impl_mockchain::header::HeaderId;
 use futures::{select, SinkExt, StreamExt};
 use jormungandr_lib::interfaces::notifier::JsonMessage;
-use slog::Logger;
 use std::marker::PhantomData;
 use std::sync::atomic::{AtomicUsize, Ordering};
 use std::sync::Arc;
